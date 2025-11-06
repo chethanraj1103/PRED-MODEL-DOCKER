@@ -1,0 +1,13 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+
+# Model checkpoints or large data
+*.pkl
+!pipeline.pkl  # keep this one model file
